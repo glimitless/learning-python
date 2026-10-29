@@ -17,6 +17,4 @@ print(
     + " USD."
 )
 
-print(
-    "$" + str(final_total % 3) + " dollars less and it could've divide evenly, oh well."
-)
+print("$", final_total % 3, "dollars less and it could've divide evenly, oh well.")
