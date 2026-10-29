@@ -5,4 +5,9 @@ print("--------------------------------")
 print('\t"LEARN PYTHON"\t')
 print("--------------------------------")
 
-print("Your learning path:\n  - Python Basics\n  - Data Engineering\n  - AI")
+print("""Your learning path:\n\t- Python Basics\n\t- Data Engineering\n\t- AI""")
+print("""Your learning path:
+\t- Python Basics
+\t- Data Engineering
+\t- AI
+""")
