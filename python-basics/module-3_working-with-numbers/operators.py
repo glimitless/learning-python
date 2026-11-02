@@ -1,3 +1,5 @@
+import math
+
 print(3 + 4)  # add
 print(11 - 4)  # subtract
 print(1.75 * 4)  # multiply
@@ -6,6 +8,7 @@ print(30 // 4)  # floor divide
 print(15 % 8)  # remainder
 print(2**7)  # exponentiation
 print(49**0.5)  # square root
+print(math.sqrt(49))  # square root
 
 x = 3
 x += 4
