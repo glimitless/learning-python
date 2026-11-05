@@ -21,5 +21,3 @@ for file in file_list:
         break
 else:
     print("No duplicate file names exist in this data.")
-
-
