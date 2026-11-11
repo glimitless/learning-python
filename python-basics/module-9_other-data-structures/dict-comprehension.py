@@ -9,4 +9,4 @@ filtered_user_args_2 = {
     if isinstance(v, str) #Filter
 }
 
-print(filtered_user_args, filtered_user_args_2)
+print(filtered_user_args, filtered_user_args_2) 
