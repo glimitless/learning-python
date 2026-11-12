@@ -37,5 +37,3 @@ def character_select(input: str=None):
     return selection, character_id
 
 print(character_select(' SeVeN  '))
-
-    
