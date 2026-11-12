@@ -1,8 +1,8 @@
-def write_log(message):
+def write_log(message: str) -> None:
     with open(r'C:\Users\gianc\Downloads\app.log', 'a') as file:
         file.write(message + '\n')
 
-def clean_and_split_email(email: str):
+def clean_and_split_email(email: str) -> dict:
     cleaned = email.strip().lower()
     username, domain = cleaned.split('@')
     # at_symbol_index = cleaned.find('@')
@@ -15,10 +15,12 @@ def clean_and_split_email(email: str):
         'domain': domain
     }
 
-def is_valid_email(email: str):
+def is_valid_email(email: str) -> bool:
+    '''
+    '''
     return '@' in email and '.' in email
 
-def process_user_email():
+def process_user_email() -> str:
     run_program = True
     cleaned_email = ''
     write_log(f'Application started.')
