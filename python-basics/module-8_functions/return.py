@@ -14,6 +14,7 @@ def character_select(input: str=None):
                     ],
                     'occupation': 'Royal Knight'
                 }
+                character_id = input
             case 'seven':
                 selection = {
                     'name': 'Seven',
@@ -25,12 +26,15 @@ def character_select(input: str=None):
                         'Gambling',
                         'Melee Combat'
                     ],
-                    'occupation': 'Outlaw'
+                    'occupation': 'Outlaw',
+                    'id': 'seven'
                 }
+                character_id = input
     else:
         selection = None
+        character_id = ''
 
-    return selection
+    return selection, character_id
 
 print(character_select(' SeVeN  '))
 
