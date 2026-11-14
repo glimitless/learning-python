@@ -10,11 +10,11 @@ window.title('Imageworks2D')
 
 edit_value = tk.IntVar()
 edit_value.set(1)
-edit_entry = tk.Entry(window, width=70)
+edit_entry = tk.Entry(window, width=20)
 edit_submit = tk.Button(
     window, 
     text='SUBMIT',
-    width=45,  
+    width=20,  
     bg='black',
     activebackground='green', 
     fg='green',
